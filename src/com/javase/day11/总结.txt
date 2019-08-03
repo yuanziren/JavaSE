@@ -1,0 +1,30 @@
+复习:
+	一.匿名内部类  了解
+		目的:简化代码
+		三种使用方式:
+	二.Lambda表达式
+		目的:简化匿名内部类
+		语法: ()->{}
+		前提:函数式接口,抽象方法只有一个
+	三.常用类 
+		字符串  ***
+			String :不可变长
+			StringBuilder:可变长 线程不安全,效率高
+			StringBuffer:可变长 线程安全,效率低
+			StringBuilder>StringBuffer>String
+		包装类
+			基本数据类型的包装类
+			自动拆装箱
+		常见的面试题
+		日期 Date
+			空构造
+			long 毫秒数 构建对象 
+		格式转换类 SimpleDateFormat --指定格式
+				format(Date) 日期对象转为字符串
+				parse(String)   字符串转日期对象 
+		枚举:了解
+			枚举作用:定义所有可能
+			常量-->实例
+		数据类:Math
+		File:文件|目录的抽象表示形式 
+	
