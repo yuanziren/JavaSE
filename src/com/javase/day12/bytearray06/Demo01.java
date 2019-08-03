@@ -51,6 +51,7 @@ public class Demo01 {
 		ByteArrayOutputStream os=new ByteArrayOutputStream();
 		String str="我是字节数组流,我在一些服务器底层或框架底层都是用,但是你很少能使用我,请了解我,谢谢!!!";
 		os.write(str.getBytes());
+//		byte[] arr = str.getBytes();
 		byte[] arr=os.toByteArray();
 		return arr;
 	}
